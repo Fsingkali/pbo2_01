@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="300.0"
+            fx:controller="com.febri.controller.DemoMainController" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <Label layoutX="10.0" layoutY="-26.0" text="Input" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <TextField fx:id="textInput" layoutX="97.0" layoutY="15.0" prefHeight="25.0" prefWidth="189.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+      <Button layoutX="11.0" layoutY="38.0" mnemonicParsing="false" onAction="#SendQueryAction" text="Send" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="35.0" />
+      <Label layoutX="10.0" layoutY="65.0" text="Output" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="65.0" />
+      <Label fx:id="lblOutput" layoutX="101.0" layoutY="70.0" text="." />
+   </children>
+</AnchorPane>
